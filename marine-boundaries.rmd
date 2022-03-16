@@ -11,6 +11,7 @@ library(sf)
 library(countrycode)
 library(themes360info)
 library(ggtext)
+library(munsell)
 library(here)
 ```
 Exclusive Economic Zones (EEZ) mark out the areas in which sovereign states can
@@ -46,6 +47,11 @@ download.file(
     "https://drive.google.com/uc?export=download&confirm=t&",
     "id=1dvpLpHRcCdLVF5otz6vrXMgoYYaKjZjy"),
   destfile = here("data", "deepsea-eez-boundaries.gpkg"))
+download.file(
+  paste0(
+    "https://drive.google.com/uc?export=download&confirm=t&",
+    "id=1OzknwbPRt6FEJ4y72PtA9wz2rPQHjASa"),
+  destfile = here("data", "deepsea-eez-regions.gpkg"))
 
 eez_deep <-
   read_sf(here("data", "deepsea-eez-regions.gpkg")) %>%
@@ -136,7 +142,7 @@ eez_deep %>%
 eez_deep_info
 
 eez_full <-
-  read_sf(here("data", "full-eez-regions.gpkg")) %>%
+  read_sf(here("data", "full-eez.gpkg")) %>%
   as_tibble() %>%
   select(
     id_num = MRGID,
@@ -274,6 +280,6 @@ ordered_eez_totals_by_sov %>%
         axis.title.x.top = element_text(margin = margin(0, 0, 20, 0, "pt")))
   } %>%
   print() %>%
-  save_360plot(here("marine-boundaries", "out", "marine-boundaries2.png"),
+  save_360plot(here("out", "marine-boundaries.png"),
     shape = "phone-portrait")
 ```
