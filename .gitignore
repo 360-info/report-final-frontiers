@@ -1,6 +1,5 @@
 # system files
 .DS_Store
-out
 
 # large qgis files (they're stored in the 360 google drive)
 data/*.gpkg

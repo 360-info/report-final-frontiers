@@ -226,6 +226,8 @@ bar_colours <- c(
   "Exclusive" = mnsl2hex("5PB 2/6")
 )
 
+dir.create(here("out"))
+
 ordered_eez_totals_by_sov %>%
   mutate(
     zone_type = factor(
@@ -279,7 +281,13 @@ ordered_eez_totals_by_sov %>%
         panel.grid.minor.y = element_blank(),
         axis.title.x.top = element_text(margin = margin(0, 0, 20, 0, "pt")))
   } %>%
-  print() %>%
-  save_360plot(here("out", "marine-boundaries.png"),
+  print() ->
+eez_barchart
+
+register_360fonts("itc")
+save_360plot(eez_barchart, here("out", "marine-boundaries.png"),
+    shape = "phone-portrait")
+register_360fonts("libre")
+save_360plot(eez_barchart, here("out", "marine-boundaries.svg"),
     shape = "phone-portrait")
 ```
