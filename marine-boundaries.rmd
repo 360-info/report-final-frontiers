@@ -1,0 +1,279 @@
+---
+title: "Marine boundaries"
+author: "James Goldie, 360info"
+---
+
+# Introduction
+
+```{r setup}
+library(tidyverse)
+library(sf)
+library(countrycode)
+library(themes360info)
+library(ggtext)
+library(here)
+```
+Exclusive Economic Zones (EEZ) mark out the areas in which sovereign states can
+extract and use natural resources to the exclusion of others. Many EEZs really
+are exclusive to one state, but some EEZs are jointly managed by two or more
+sovereign states, while others are overlapping claims.
+
+Let's load in the boundaries of the _deep sea_ regions of these EEZ. This has
+been calculated in QGIS using two data sources:
+
+1. **EEZ boundaries:** Flanders Marine Institute (2019). Maritime Boundaries
+Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM),
+version 11. Available online at https://www.marineregions.org/.
+https://doi.org/10.14284/386
+2. **Bathymetry (elevation):** GEBCO Compilation Group (2021) GEBCO 2021 Grid
+https://doi.org/10.5285/c6612cbe-50b3-0cff-e053-6c86abc09f8f
+
+```{r import}
+
+# first we need to grab our qgis files from the 360 google drive
+download.file(
+  paste0(
+    "https://drive.google.com/uc?export=download&confirm=t&",
+    "id=1NVJeEvIzeGcXCgRCs3IlXXD0xXVfvWfI"),
+  destfile = here("data", "regions-below-200m.gpkg"))
+download.file(
+  paste0(
+    "https://drive.google.com/uc?export=download&confirm=t&",
+    "id=1Q8P4qY9bpJGSJ6zhB3SG8UrkHEHkaekp"),
+  destfile = here("data", "full-eez.gpkg"))
+download.file(
+  paste0(
+    "https://drive.google.com/uc?export=download&confirm=t&",
+    "id=1dvpLpHRcCdLVF5otz6vrXMgoYYaKjZjy"),
+  destfile = here("data", "deepsea-eez-boundaries.gpkg"))
+
+eez_deep <-
+  read_sf(here("data", "deepsea-eez-regions.gpkg")) %>%
+  select(
+    id_num = MRGID,
+    zone_name = eez_v11_GEONAME,
+    zone_type = eez_v11_POL_TYPE,
+    # the whole area of the eez (including the shallows aove 200m, which are not
+    # part of the geometry of this file)
+    total_area = eez_v11_AREA_KM2,
+    # the area of the deep sea - sub 200m - part of the eez, which this geometry shows
+    deepsea_area_km2 = deepsea_area_km2,
+    claim1_territory_name = eez_v11_TERRITORY1,
+    claim1_territory_iso3 = eez_v11_ISO_TER1,
+    claim1_sov_name       = eez_v11_SOVEREIGN1,
+    claim1_sov_iso3       = eez_v11_ISO_SOV1,
+    claim2_territory_name = eez_v11_TERRITORY2,
+    claim2_territory_iso3 = eez_v11_ISO_TER2,
+    claim2_sov_name       = eez_v11_SOVEREIGN2,
+    claim2_sov_iso3       = eez_v11_ISO_SOV2,
+    claim3_territory_name = eez_v11_TERRITORY3,
+    claim3_territory_iso3 = eez_v11_ISO_TER3,
+    claim3_sov_name       = eez_v11_SOVEREIGN3,
+    claim3_sov_iso3       = eez_v11_ISO_SOV3,
+    geom) %>%
+  mutate(frac_deepsea = deepsea_area_km2 / total_area)
+```
+
+Now we can answer some questions!
+
+# How much of the deep sea is claimed?
+
+How much deep sea is there in total, and how much of it is under _any_ claim?
+
+```{r allclaims}
+# let's load a separate file of all the deep sea regins on earth to get that
+# area
+depth_classes <-
+  read_sf(here("data", "regions-below-200m.gpkg")) %>%
+  st_transform(crs = 8857) %>%
+  mutate(area_km2 = as.numeric(st_area(.)) / 1e6)
+deepsea_area <-
+  depth_classes %>%
+  filter(description == "Sub 200m Depth") %>%
+  pull(area_km2)
+
+  # note that alt
+
+# now sum up the claim areas (with and without antarctica;s eez)
+all_claims <-
+  eez_deep %>%
+  pull(deepsea_area_km2) %>%
+  sum(na.rm = TRUE)
+all_claims_less_antarctica <-
+  eez_deep %>%
+  filter(!str_detect(zone_name, "Antarctic")) %>%
+  pull(deepsea_area_km2) %>%
+  sum(na.rm = TRUE)
+
+# area labeller
+label_area <- scales::label_number_si(" square kilometres", accuracy = 1)
+```
+
+So the deep sea comprises `r label_area(deepsea_area)`, of which
+`r scales::percent(all_claims / as.numeric(deepsea_area))` is claimed by one or
+more states as an EEZ.
+
+There is some complicating detail here. Parts of the Arctic and Antarctic are
+covered by sea ice but have deep sea underneath, which is included here.
+
+The Antarctic also has an EEZ extending out from its boundary (even though
+there's deep sea behind that boundary). If you remove the Antarctic EEZ but
+still include the deep sea behind its boundary, the total fraction of the deep
+sea claimed falls to
+`r scales::percent(all_claims_less_antarctica / as.numeric(deepsea_area))`.
+
+# Total EEZ area by sovereign state
+
+To work this out, let's tidy this dataset so that there's one row per _claim_ instead of one row per EEZ:
+
+```{r tidyclaims}
+
+# let's isolate the unique deepsea info and merge it into the full eez shapes
+# (which include shallow-only eezs)
+eez_deep %>%
+  as_tibble() %>%
+  select(id_num, deepsea_area_km2, frac_deepsea) ->
+eez_deep_info
+
+eez_full <-
+  read_sf(here("data", "full-eez-regions.gpkg")) %>%
+  as_tibble() %>%
+  select(
+    id_num = MRGID,
+    zone_name = GEONAME,
+    zone_type = POL_TYPE,
+    total_area = AREA_KM2,
+    claim1_territory_name = TERRITORY1,
+    claim1_territory_iso3 = ISO_TER1,
+    claim1_sov_name       = SOVEREIGN1,
+    claim1_sov_iso3       = ISO_SOV1,
+    claim2_territory_name = TERRITORY2,
+    claim2_territory_iso3 = ISO_TER2,
+    claim2_sov_name       = SOVEREIGN2,
+    claim2_sov_iso3       = ISO_SOV2,
+    claim3_territory_name = TERRITORY3,
+    claim3_territory_iso3 = ISO_TER3,
+    claim3_sov_name       = SOVEREIGN3,
+    claim3_sov_iso3       = ISO_SOV3,
+    geom)
+
+# join the two datasets together
+eez_full %>%
+  left_join(eez_deep_info, by = "id_num") %>%
+  replace_na(list(deepsea_area_km2 = 0, frac_deepsea = 0)) ->
+eez_joined
+
+# now let's lengthen this to work out which areas _any_ sovereign state has
+# access to
+eez_joined %>%
+  select(-geom) %>%
+  # lengthen claim number and territory/sovereign
+  pivot_longer(
+    starts_with("claim"),
+    names_to = c("claim_num", "party", ".value"), names_sep = "_") %>%
+  # now go wider again
+  pivot_wider(names_from = "party", values_from = c("name", "iso3")) %>%
+  select(-claim_num) %>%
+  # now drop the rows where there isn't a second or third claim
+  drop_na(starts_with("_territory"), starts_with("_sov")) %>%
+  write_csv(here("data", "eez-claims-tidy.csv")) ->
+eez_claims
+
+eez_claims
+```
+
+Now let's add up the area each sovereign state controls by zone type:
+
+```{r areabysov}
+eez_claims %>%
+  group_by(name_sov, zone_type) %>%
+  summarise(
+    deep = sum(deepsea_area_km2, na.rm = TRUE),
+    shallow = sum(total_area, na.rm = TRUE) - deep) %>%
+  pivot_longer(where(is.double), names_to = "depth_class", values_to = "area") ->
+eez_totals_by_sov
+
+# we want to order the bars by the size of the deep sea area each sovereign
+# controls, regardless of the exclusivity. let's calculate that separately
+# and merge it back in rather than relying on factor levels
+eez_totals_by_sov %>%
+  filter(depth_class == "deep") %>%
+  group_by(name_sov) %>%
+  summarise(deep_area = sum(area, na.rm = TRUE)) %>%
+  arrange(desc(deep_area)) %>%
+  mutate(
+    area_rank = 1:n(),
+    name_sov = fct_reorder(name_sov, deep_area),
+    name_lump = fct_lump_n(name_sov, n = 20, w = deep_area,
+      other_level = "Other countries")) ->
+sov_order
+
+eez_totals_by_sov %>%
+  left_join(sov_order, by = "name_sov") %>%
+  select(-deep_area) ->
+ordered_eez_totals_by_sov
+
+# plot colours
+bar_colours <- c(
+  "Overlapping claim" = mnsl2hex("5YR 7/12"),
+  "Joint regime" = mnsl2hex("7.5G 8/10"),
+  "Exclusive" = mnsl2hex("5PB 2/6")
+)
+
+ordered_eez_totals_by_sov %>%
+  mutate(
+    zone_type = factor(
+      if_else(zone_type == "200NM", "Exclusive", zone_type),
+      levels = c("Exclusive", "Joint regime", "Overlapping claim"))) %>%
+  filter(depth_class == "deep") %>%
+  {
+    ggplot(.) +
+      aes(x = name_lump, y = area, fill = zone_type, colour = zone_type) +
+      geom_col(position = position_stack(reverse = TRUE)) +
+      coord_flip() +
+      annotate(geom = "richtext",
+        x = 6, y = 0.75e7,
+        fill = NA, label.colour = NA, size = 6, hjust = "left",
+        family = "Body 360info",
+        label = paste(
+          "**Where's the boundary?**",
+          "These areas represent a state's",
+          "Exclusive Economic Zone (EEZ).",
+          "<br>",
+          "EEZs typically extend 200 nautical miles",
+          "from a country, except where another",
+          "country is closer.",
+          sep = "<br>"),
+        ) +
+      scale_fill_manual(values = bar_colours,
+        guide = guide_legend(reverse = TRUE)) +
+      scale_colour_manual(values = bar_colours,
+        guide = guide_legend(reverse = TRUE)) +
+      scale_y_continuous(
+        position = "right",
+        labels = scales::label_number_si(unit = "")) +
+      labs(
+        x = "", y = "Area (sq. km)",
+        fill = "", colour = "",
+        title = toupper("Access to the deep sea"),
+        subtitle = toupper(
+          "Area of deep sea within national maritime boundaries"),
+        caption = paste(
+          "**CHART:** James Goldie, 360info",
+          "**SOURCES**: Flanders Marine Institute, GEBCO",
+          sep = "<br>")
+      ) +
+      theme_360() +
+      theme(
+        legend.direction = "horizontal",
+        legend.position = "top",
+        plot.subtitle = element_text(margin = margin(0, 0, 10, 0, "pt")),
+        legend.box.spacing = unit(5, "pt"),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        axis.title.x.top = element_text(margin = margin(0, 0, 20, 0, "pt")))
+  } %>%
+  print() %>%
+  save_360plot(here("marine-boundaries", "out", "marine-boundaries2.png"),
+    shape = "phone-portrait")
+```

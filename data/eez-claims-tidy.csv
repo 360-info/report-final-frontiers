@@ -1,0 +1,289 @@
+id_num,zone_name,zone_type,total_area,deepsea_area_km2,frac_deepsea,name_territory,name_sov,iso3_territory,iso3_sov
+8444,American Samoa Exclusive Economic Zone,200NM,405830,405392.4362454256,0.9989218053012976,American Samoa,United States,ASM,USA
+8379,Ascension Exclusive Economic Zone,200NM,446005,445912.0285177523,0.9997915460987036,Ascension,United Kingdom,SHN,GBR
+8446,Cook Islands Exclusive Economic Zone,200NM,1969553,1969872.8294623108,1.0001623868270164,Cook Islands,New Zealand,COK,NZL
+8389,Overlapping claim Falkland / Malvinas Islands: UK / Argentina,Overlapping claim,550566,373924.3458713479,0.6791635260283924,Falkland / Malvinas Islands,United Kingdom,FLK,GBR
+8389,Overlapping claim Falkland / Malvinas Islands: UK / Argentina,Overlapping claim,550566,373924.3458713479,0.6791635260283924,Falkland / Malvinas Islands,Argentina,FLK,ARG
+8440,French Polynesian Exclusive Economic Zone,200NM,4766689,4745864.27826957,0.9956311977285639,French Polynesia,France,PYF,FRA
+8439,Pitcairn Islands Exclusive Economic Zone,200NM,842291,841946.3385122928,0.9995908047364781,Pitcairn,United Kingdom,PCN,GBR
+8380,St. Helena Exclusive Economic Zone,200NM,449215,448585.073704855,0.9985977175847979,Saint Helena,United Kingdom,SHN,GBR
+8445,Samoan Exclusive Economic Zone,200NM,130480,128663.06059072568,0.9860749585432685,Samoa,Samoa,WSM,WSM
+8448,Tongan Exclusive Economic Zone,200NM,666052,657771.2664794029,0.9875674368959224,Tonga,Tonga,TON,TON
+8382,Tristan Da Cunha Exclusive Economic Zone,200NM,758168,756855.7883190206,0.9982692336250285,Tristan da Cunha,United Kingdom,SHN,GBR
+8465,Chilean Exclusive Economic Zone,200NM,2488052,2269855.611065293,0.9123023196722951,Chile,Chile,CHL,CHL
+8447,Niue Exclusive Economic Zone,200NM,318140,318024.96317388344,0.9996384081658498,Niue,New Zealand,NIU,NZL
+48961,Joint regime area Argentina / Uruguay,Joint regime,41414,0,0,Uruguay,Uruguay,URY,URY
+48961,Joint regime area Argentina / Uruguay,Joint regime,41414,0,0,Argentina,Argentina,ARG,ARG
+48962,Joint regime area Peru / Ecuador,Joint regime,16097,14318.077425546644,0.8894873222057926,Peru,Peru,PER,PER
+48962,Joint regime area Peru / Ecuador,Joint regime,16097,14318.077425546644,0.8894873222057926,Ecuador,Ecuador,ECU,ECU
+8467,Uruguayan Exclusive Economic Zone,200NM,143092,67742.36235296894,0.4734182368893365,Uruguay,Uruguay,URY,URY
+8449,Tokelau Exclusive Economic Zone,200NM,320548,320531.60356787755,0.9999488487461395,Tokelau,New Zealand,TKL,NZL
+8432,Peruvian Exclusive Economic Zone,200NM,854698,766703.5866561371,0.8970461925219635,Peru,Peru,PER,PER
+22756,Chilean Exclusive Economic Zone (San Felix and San Ambrosio islands),200NM,450960,450541.37421645573,0.9990717008525274,Islas San Félix and San Ambrosio,Chile,CHL,CHL
+8450,Kiribati Exclusive Economic Zone (Phoenix Islands),200NM,745782,745308.0294747283,0.999364465051085,Phoenix Group,Kiribati,KIR,KIR
+8466,Argentinean Exclusive Economic Zone,200NM,1072053,277281.5910622718,0.258645413111359,Argentina,Argentina,ARG,ARG
+8386,Amsterdam Island & St. Paul Island Exclusive Economic Zone,200NM,512188,512051.99180163577,0.9997344564918268,Amsterdam and Saint Paul Islands,France,ATF,FRA
+8309,Christmas Island Exclusive Economic Zone,200NM,327994,327946.0057724478,0.9998536734588066,Christmas Island,Australia,CXR,AUS
+8308,Cocos Islands Exclusive Economic Zone,200NM,467440,467194.19150949316,0.9994741389472299,Cocos Islands,Australia,CCK,AUS
+8334,Comoran Exclusive Economic Zone,200NM,164476,163193.6471552748,0.9922034044801358,Comores,Comores,COM,COM
+8385,Crozet Islands Exclusive Economic Zone,200NM,575375,569749.1850329505,0.9902223506981542,Crozet Islands,France,ATF,FRA
+48944,Overlapping claim Mayotte: France / Comoros,Overlapping claim,66738,65394.464408135704,0.9798685068197385,Mayotte,France,MYT,FRA
+48944,Overlapping claim Mayotte: France / Comoros,Overlapping claim,66738,65394.464408135704,0.9798685068197385,Mayotte,Comores,MYT,COM
+8388,Heard and McDonald Islands Exclusive Economic Zone,200NM,417321,413491.65973957337,0.9908239933757788,Heard and McDonald Islands,Australia,HMD,AUS
+8387,Kerguelen Exclusive Economic Zone,200NM,550817,489095.4987602829,0.88794554046132,Kerguélen,France,ATF,FRA
+8348,Madagascan Exclusive Economic Zone,200NM,1196285,1075207.7874280524,0.8987889904396129,Madagascar,Madagascar,MDG,MDG
+8396,South African Exclusive Economic Zone,200NM,1072679,914068.0052751034,0.8521356391568246,South Africa,South Africa,ZAF,ZAF
+8312,New Caledonian Exclusive Economic Zone,200NM,1175971,1128884.1136792356,0.9599591432775431,New Caledonia,France,NCL,FRA
+8310,Norfolk Island Exclusive Economic Zone,200NM,430600,427606.2670097125,0.9930475313741582,Norfolk Island,Australia,NFK,AUS
+8343,Mauritian Exclusive Economic Zone,200NM,1278182,1239023.2513906334,0.9693637145497538,Republic of Mauritius,Republic of Mauritius,MUS,MUS
+8338,Réunion Exclusive Economic Zone,200NM,315151,314848.44582169066,0.9990399707495475,Réunion,France,REU,FRA
+8313,Vanuatu Exclusive Economic Zone,200NM,623424,615238.0871557387,0.986869429402363,Vanuatu,Vanuatu,VUT,VUT
+8395,Namibian Exclusive Economic Zone,200NM,562212,468966.7012513052,0.8341456625815621,Namibia,Namibia,"NAM","NAM"
+8394,Congolese Exclusive Economic Zone,200NM,33807,25611.742364131394,0.7575869602192267,Republic of the Congo,Republic of the Congo,COG,COG
+8478,Angolan Exclusive Economic Zone,200NM,495866,444740.34643295757,0.8968962309030213,Angola,Angola,AGO,AGO
+8347,Mozambican Exclusive Economic Zone,200NM,566292,481683.5060891701,0.8505921081159016,Mozambique,Mozambique,MOZ,MOZ
+8349,Kenyan Exclusive Economic Zone,200NM,113833,105468.43417831822,0.9265189723394641,Kenya,Kenya,KEN,KEN
+21798,Protected Zone established under the Torres Strait Treaty,Joint regime,3717,0,0,Papua New Guinea,Papua New Guinea,PNG,PNG
+21798,Protected Zone established under the Torres Strait Treaty,Joint regime,3717,0,0,Australia,Australia,AUS,AUS
+8479,Tanzanian Exclusive Economic Zone,200NM,241567,222557.161885593,0.921306146475276,Tanzania,Tanzania,TZA,TZA
+8314,Solomon Islands Exclusive Economic Zone,200NM,1605325,1574562.1696058002,0.9808370078369179,Solomon Islands,Solomon Islands,SLB,SLB
+8337,Seychellois Exclusive Economic Zone,200NM,1341504,1291375.891484103,0.9626329041762849,Seychelles,Seychelles,SYC,SYC
+48945,Overlapping claim Glorioso Islands: France / Madagascar,Overlapping claim,43506,42669.12322048295,0.9807641065711155,Glorioso Islands,France,ATF,FRA
+8341,Ile Europa Exclusive Economic Zone,200NM,127936,127938.85316105685,1.0000223014714924,Europa Island,France,ATF,FRA
+8477,Democratic Republic of the Congo Exclusive Economic Zone,200NM,13373,10613.672322165745,0.7936642729504034,Democratic Republic of the Congo,Democratic Republic of the Congo,COD,COD
+8323,Australian Exclusive Economic Zone,200NM,6871622,4744757.459529229,0.6904858066304039,Australia,Australia,AUS,AUS
+8339,Juan de Nova Exclusive Economic Zone,200NM,62775,61915.907939650235,0.9863147421688607,Juan de Nova Island,France,ATF,FRA
+8340,Bassas da India Exclusive Economic Zone,200NM,120706,120678.79190338672,0.9997745920118861,Bassas da India,France,ATF,FRA
+33176,Overlapping claim: Kenya / Somalia,Overlapping claim,50229,50206.72162630159,0.9995564639212723,Kenya,Kenya,KEN,KEN
+33176,Overlapping claim: Kenya / Somalia,Overlapping claim,50229,50206.72162630159,0.9995564639212723,Federal Republic of Somalia,Federal Republic of Somalia,SOM,SOM
+8758,East Timorian Exclusive Economic Zone,200NM,75647,48480.613004889135,0.640879519411069,East Timor,East Timor,TLS,TLS
+8412,Anguilla Exclusive Economic Zone,200NM,90164,88006.90337770818,0.9760758548612326,Anguilla,United Kingdom,AIA,GBR
+8414,Antigua and Barbuda Exclusive Economic Zone,200NM,111568,107652.49155616891,0.9649047357321895,Antigua and Barbuda,Antigua and Barbuda,ATG,ATG
+26519,Aruban Exclusive Economic Zone,200NM,30015,28299.14060958288,0.9428332703509205,Aruba,Netherlands,ABW,NLD
+8404,Bahamas Exclusive Economic Zone,200NM,619785,498859.8017376426,0.804891699117666,Bahamas,Bahamas,BHS,BHS
+8418,Barbados Exclusive Economic Zone,200NM,185007,184678.70145168304,0.9982254803963257,Barbados,Barbados,BRB,BRB
+8429,Mexican Exclusive Economic Zone,200NM,3187013,2770878.062930008,0.8694279135133769,Mexico,Mexico,MEX,MEX
+26520,Bonaire Exclusive Economic Zone,200NM,13005,12919.52119187098,0.9934272350535163,Bonaire,Netherlands,BES,NLD
+8411,British Virgin Islands Exclusive Economic Zone,200NM,81555,78559.76405318611,0.96327342349563,British Virgin Islands,United Kingdom,VGB,GBR
+8362,Cape Verdean Exclusive Economic Zone,200NM,801936,797027.8421956575,0.993879614078502,Cape Verde,Cape Verde,CPV,CPV
+8407,Cayman Islands Exclusive Economic Zone,200NM,118291,117835.50162869837,0.9961493404290975,Cayman Islands,United Kingdom,CYM,GBR
+8423,Panamanian Exclusive Economic Zone,200NM,331318,280132.7587328707,0.8455102310555741,Panama,Panama,PAN,PAN
+8424,Costa Rican Exclusive Economic Zone,200NM,581726,563346.7439750431,0.9684056479769566,Costa Rica,Costa Rica,CRI,CRI
+26517,Curaçaoan Exclusive Economic Zone,200NM,25401,25241.319678220938,0.9937136206535545,Curaçao,Netherlands,CUW,NLD
+8417,Dominican Exclusive Economic Zone,200NM,28552,28146.935905546532,0.9858131096086625,Dominica,Dominica,DMA,DMA
+8409,Dominican Republic Exclusive Economic Zone,200NM,350694,339168.13152422744,0.9671341155657851,Dominican Republic,Dominican Republic,DOM,DOM
+8430,Guatemalan Exclusive Economic Zone,200NM,110695,95388.45165410754,0.8617232183396498,Guatemala,Guatemala,GTM,GTM
+8435,Faeroe Exclusive Economic Zone,200NM,265632,238986.80191598905,0.8996913094656858,Faeroe,Denmark,FRO,DNK
+8370,Gambian Exclusive Economic Zone,200NM,23097,17076.753351489642,0.739349411243436,Gambia,Gambia,GMB,GMB
+8365,Overlapping claim Gibraltarian Exclusive Economic Zone,Overlapping claim,388,345.7365146771095,0.8910734914358491,Gibraltar,United Kingdom,GIB,GIB
+8365,Overlapping claim Gibraltarian Exclusive Economic Zone,Overlapping claim,388,345.7365146771095,0.8910734914358491,Spain,Spain,ESP,ESP
+8419,Grenadian Exclusive Economic Zone,200NM,25571,23145.830620033183,0.9051593844602551,Grenada,Grenada,GRD,GRD
+33177,Guadeloupean Exclusive Economic Zone,200NM,90705,88885.74412397484,0.9799431577528785,Guadeloupe,France,GLP,FRA
+8390,Sierra Leonian Exclusive Economic Zone,200NM,160584,133148.6568004883,0.8291526976566053,Sierra Leone,Sierra Leone,SLE,SLE
+5680,Icelandic Exclusive Economic Zone,200NM,763239,650523.7105767519,0.8523197983551049,Iceland,Iceland,ISL,ISL
+8459,Jamaican Exclusive Economic Zone,200NM,256909,243219.9701545236,0.9467164254834342,Jamaica,Jamaica,JAM,JAM
+8369,Mauritanian Exclusive Economic Zone,200NM,173180,138505.2085170676,0.799776004833512,Mauritania,Mauritania,MRT,MRT
+8415,Montserrat Exclusive Economic Zone,200NM,7188,7065.732356970989,0.9829900329675834,Montserrat,United Kingdom,MSR,GBR
+8443,Palmyra Atoll Exclusive Economic Zone,200NM,353670,353952.06446639897,1.0007975357434868,Palmyra Atoll,United States,UMI,USA
+33179,Puerto Rican Exclusive Economic Zone,200NM,154661,149001.41836664846,0.9634065366617859,Puerto Rico,United States,PRI,USA
+26518,Saba Exclusive Economic Zone,200NM,9487,7178.354166679094,0.7566516461135337,Saba,Netherlands,BES,NLD
+48952,Saint-Barthélemy Exclusive Economic Zone,200NM,4179,2380.614283511168,0.5696612307995138,Saint-Barthélemy,France,BLM,FRA
+26526,Sint-Eustatius Exclusive Economic Zone,200NM,2176,2003.0586267742447,0.9205232659808109,Sint-Eustatius,Netherlands,BES,NLD
+8413,Saint Kitts and Nevis Exclusive Economic Zone,200NM,9502,8729.117545938852,0.9186610761880502,Saint Kitts and Nevis,Saint Kitts and Nevis,KNA,KNA
+8416,Saint Lucia Exclusive Economic Zone,200NM,15413,14800.588761768395,0.9602665776791277,Saint Lucia,Saint Lucia,LCA,LCA
+8495,Saint-Martin Exclusive Economic Zone,200NM,1100,663.8661024953244,0.6035146386321131,Collectivity of Saint Martin,France,MAF,FRA
+8494,Saint-Pierre and Miquelon Exclusive Economic Zone,200NM,12414,4511.917403110573,0.36345395546242737,Saint-Pierre and Miquelon,France,SPM,FRA
+8421,Saint Vincent and the Grenadines Exclusive Economic Zone,200NM,36244,34274.25583317222,0.9456532345539184,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,VCT,VCT
+21803,Sint-Maarten Exclusive Economic Zone,200NM,466,333.2556742788343,0.715140931928829,Sint-Maarten,Netherlands,SXM,NLD
+8420,Trinidad and Tobago Exclusive Economic Zone,200NM,76562,53152.62824825496,0.6942429436045944,Trinidad and Tobago,Trinidad and Tobago,TTO,TTO
+8405,Turks and Caicos Exclusive Economic Zone,200NM,91025,85856.4531901377,0.9432183816549048,Turks and Caicos Islands,United Kingdom,TCA,GBR
+33180,Virgin Islander Exclusive Economic Zone,200NM,38275,36275.19456571297,0.9477516542315603,United States Virgin Islands,United States,VIR,USA
+5688,Portuguese Exclusive Economic Zone,200NM,315501,290653.6452943062,0.9212447671934676,Portugal,Portugal,PRT,PRT
+8428,El Salvador Exclusive Economic Zone,200NM,95099,76681.39570016792,0.8063323031805584,El Salvador,El Salvador,SLV,SLV
+8457,Belizean Exclusive Economic Zone,200NM,34312,24186.476338680153,0.7048984710503658,Belize,Belize,BLZ,BLZ
+8406,Cuban Exclusive Economic Zone,200NM,352259,295004.2041234903,0.8374639232027864,Cuba,Cuba,CUB,CUB
+8408,Haitian Exclusive Economic Zone,200NM,103485,98358.3181100027,0.9504596618833908,Haiti,Haiti,HTI,HTI
+33178,Martinican Exclusive Economic Zone,200NM,47787,46240.64219902312,0.9676406177207842,Martinique,France,MTQ,FRA
+48964,Joint regime area Senegal / Guinea Bissau,Joint regime,63460,60855.19431770206,0.958953582062749,Senegal,Senegal,SEN,SEN
+48964,Joint regime area Senegal / Guinea Bissau,Joint regime,63460,60855.19431770206,0.958953582062749,Guinea-Bissau,Guinea-Bissau,GNB,GNB
+48965,Overlapping claim: Venezuela / Aruba / Dominican Republic,Overlapping claim,1113,1114.7556286253212,1.0015773842096327,Venezuela,Venezuela,VEN,VEN
+48965,Overlapping claim: Venezuela / Aruba / Dominican Republic,Overlapping claim,1113,1114.7556286253212,1.0015773842096327,Aruba,Netherlands,ABW,NLD
+48965,Overlapping claim: Venezuela / Aruba / Dominican Republic,Overlapping claim,1113,1114.7556286253212,1.0015773842096327,Dominican Republic,Dominican Republic,DOM,DOM
+48966,Joint regime area Spain / France,Joint regime,2859,2859.508814520481,1.000177969402057,France,France,FRA,FRA
+48966,Joint regime area Spain / France,Joint regime,2859,2859.508814520481,1.000177969402057,Spain,Spain,ESP,ESP
+48967,Joint regime area United Kingdom / Denmark (Faeroe Islands),Joint regime,8011,7937.2265535823335,0.9907909815980943,United Kingdom,United Kingdom,GBR,GBR
+48967,Joint regime area United Kingdom / Denmark (Faeroe Islands),Joint regime,8011,7937.2265535823335,0.9907909815980943,Faeroe,Denmark,FRO,DNK
+48943,Overlapping claim: Canada / USA,Overlapping claim,24772,23313.495179374448,0.9411228475445845,Canada,Canada,CAN,CAN
+48943,Overlapping claim: Canada / USA,Overlapping claim,24772,23313.495179374448,0.9411228475445845,United States,United States,USA,USA
+48968,Joint regime area Costa Rica / Ecuador (Galapagos),Joint regime,17337,17337.17249836431,1.000009949723961,Costa Rica,Costa Rica,CRI,CRI
+8425,Nicaraguan Exclusive Economic Zone,200NM,213813,131867.42068626577,0.6167418290107045,Nicaragua,Nicaragua,NIC,NIC
+8460,Guyanese Exclusive Economic Zone,200NM,135060,85010.41162262845,0.629427007423578,Guyana,Guyana,GUY,GUY
+48969,Joint regime area Guyana / Barbados,Joint regime,67,67.15752233873604,1.0023510796826276,Barbados,Barbados,BRB,BRB
+48969,Joint regime area Guyana / Barbados,Joint regime,67,67.15752233873604,1.0023510796826276,Guyana,Guyana,GUY,GUY
+48970,Joint regime area Colombia / Dominican Republic,Joint regime,13111,13110.200917407034,0.9999390525060662,Dominican Republic,Dominican Republic,DOM,DOM
+48970,Joint regime area Colombia / Dominican Republic,Joint regime,13111,13110.200917407034,0.9999390525060662,Colombia,Colombia,COL,COL
+48971,Overlapping claim: Venezuela / Colombia / Dominican Republic,Overlapping claim,869,863.1746102997047,0.9932964445336072,Colombia,Colombia,COL,COL
+48971,Overlapping claim: Venezuela / Colombia / Dominican Republic,Overlapping claim,869,863.1746102997047,0.9932964445336072,Dominican Republic,Dominican Republic,DOM,DOM
+48971,Overlapping claim: Venezuela / Colombia / Dominican Republic,Overlapping claim,869,863.1746102997047,0.9932964445336072,Venezuela,Venezuela,VEN,VEN
+5681,Irish Exclusive Economic Zone,200NM,427039,278095.8733738959,0.6512189129655509,Ireland,Ireland,IRL,IRL
+21788,Guernsey Exclusive Economic Zone,200NM,6531,0,0,Guernsey,United Kingdom,GGY,GBR
+21789,Jersey Exclusive Economic Zone,200NM,2277,0,0,Jersey,United Kingdom,JEY,GBR
+8371,Senegalese Exclusive Economic Zone,200NM,158358,133959.74893382197,0.8459297852575934,Senegal,Senegal,SEN,SEN
+8471,Guinea Bissau Exclusive Economic Zone,200NM,106870,68904.4807389114,0.6447504513793525,Guinea-Bissau,Guinea-Bissau,GNB,GNB
+8472,Guinean Exclusive Economic Zone,200NM,102163,52533.866164632425,0.5142161659762577,Guinea,Guinea,GIN,GIN
+8473,Ivory Coast Exclusive Economic Zone,200NM,171760,158499.30562714266,0.9227952120816411,Ivory Coast,Ivory Coast,CIV,CIV
+33185,Overlapping claim: Trinidad and Tobago / Venezuela / Guyana,Overlapping claim,3612,3591.564891468431,0.9943424394984582,Guyana,Guyana,GUY,GUY
+33185,Overlapping claim: Trinidad and Tobago / Venezuela / Guyana,Overlapping claim,3612,3591.564891468431,0.9943424394984582,Trinidad and Tobago,Trinidad and Tobago,TTO,TTO
+33185,Overlapping claim: Trinidad and Tobago / Venezuela / Guyana,Overlapping claim,3612,3591.564891468431,0.9943424394984582,Venezuela,Venezuela,VEN,VEN
+8391,Liberian Exclusive Economic Zone,200NM,251781,233135.1238026755,0.9259440696584551,Liberia,Liberia,LBR,LBR
+21792,Joint regime area Colombia / Jamaica,Joint regime,15247,14870.76572003264,0.9753240453881182,Jamaica,Jamaica,JAM,JAM
+21792,Joint regime area Colombia / Jamaica,Joint regime,15247,14870.76572003264,0.9753240453881182,Colombia,Colombia,COL,COL
+48972,Joint regime area Honduras / Cayman Islands,Joint regime,2075,1530.5990808931697,0.7376381112738167,Honduras,Honduras,HND,HND
+48972,Joint regime area Honduras / Cayman Islands,Joint regime,2075,1530.5990808931697,0.7376381112738167,Cayman Islands,United Kingdom,CYM,GBR
+48973,Joint regime area Iceland / Denmark (Faeroe Islands),Joint regime,1234,1271.6466805160603,1.0305078448266292,Faeroe,Denmark,FRO,DNK
+48973,Joint regime area Iceland / Denmark (Faeroe Islands),Joint regime,1234,1271.6466805160603,1.0305078448266292,Iceland,Iceland,ISL,ISL
+8433,Venezuelan Exclusive Economic Zone,200NM,472546,362956.4946869165,0.7680871167821048,Venezuela,Venezuela,VEN,VEN
+8427,Honduran Exclusive Economic Zone,200NM,208636,147430.81697795374,0.7066413129946593,Honduras,Honduras,HND,HND
+48974,Joint regime area Ecuador / Colombia,Joint regime,18663,18526.142778821217,0.9926669227252434,Ecuador,Ecuador,ECU,ECU
+48974,Joint regime area Ecuador / Colombia,Joint regime,18663,18526.142778821217,0.9926669227252434,Colombia,Colombia,COL,COL
+48975,Joint regime area Iceland / Norway (Jan Mayen),Joint regime,45532,45398.42927810853,0.9970664428996866,Iceland,Iceland,ISL,ISL
+48975,Joint regime area Iceland / Norway (Jan Mayen),Joint regime,45532,45398.42927810853,0.9970664428996866,Jan Mayen,Norway,SJM,NOR
+8493,Canadian Exclusive Economic Zone,200NM,5740544,3088858.428430961,0.5380776505555851,Canada,Canada,CAN,CAN
+8368,Overlapping claim Western Saharan Exclusive Economic Zone,Overlapping claim,284054,222382.5847414742,0.7828884111523661,Western Sahara,Western Sahara,ESH,ESH
+8368,Overlapping claim Western Saharan Exclusive Economic Zone,Overlapping claim,284054,222382.5847414742,0.7828884111523661,Western Sahara,Morocco,ESH,MAR
+8461,Surinamese Exclusive Economic Zone,200NM,133303,76320.40246863663,0.5725332698336619,Suriname,Suriname,SUR,SUR
+8462,French Guiana Exclusive Economic Zone,200NM,131554,86477.50345176709,0.6573536604874582,French Guiana,France,GUF,FRA
+48982,Overlapping claim: Puerto Rico / Dominican Republic,Overlapping claim,18297,18299.136543545344,1.0001167701560554,Puerto Rico,United States,PRI,USA
+48982,Overlapping claim: Puerto Rico / Dominican Republic,Overlapping claim,18297,18299.136543545344,1.0001167701560554,Dominican Republic,Dominican Republic,DOM,DOM
+8452,Johnston Atoll Exclusive Economic Zone,200NM,442443,442244.20986350614,0.9995506988776094,Johnston Atoll,United States,UMI,USA
+8426,Colombian Exclusive Economic Zone,200NM,718338,670910.4724443989,0.9339760286166107,Colombia,Colombia,COL,COL
+8367,Moroccan Exclusive Economic Zone,200NM,280452,220443.4912226651,0.786029307056698,Morocco,Morocco,MAR,MAR
+8360,United Arab Emirates Exclusive Economic Zone,200NM,51674,1005.9471579330066,0.01946718190836797,United Arab Emirates,United Arab Emirates,ARE,ARE
+8376,Cypriote Exclusive Economic Zone,200NM,98450,95632.8560753317,0.9713850286981381,Cyprus,Cyprus,CYP,CYP
+48947,Overlapping claim: Iran / United Arab Emirates,Overlapping claim,6173,0,0,United Arab Emirates,United Arab Emirates,ARE,ARE
+48947,Overlapping claim: Iran / United Arab Emirates,Overlapping claim,6173,0,0,Iran,Iran,IRN,IRN
+8490,Egyptian Exclusive Economic Zone,200NM,243342,196308.07897825044,0.8067167976685096,Egypt,Egypt,EGY,EGY
+8351,Eritrean Exclusive Economic Zone,200NM,78110,17509.20580337535,0.2241608731708533,Eritrea,Eritrea,ERI,ERI
+5678,Georgian Exclusive Economic Zone,200NM,22944,20396.527806341794,0.8889700055065287,Georgia,Georgia,GEO,GEO
+8469,Iranian Exclusive Economic Zone,200NM,215332,90947.92552029535,0.4223614024868359,Iran,Iran,IRN,IRN
+8374,Lebanese Exclusive Economic Zone,200NM,20184,18941.494321488266,0.9384410583377064,Lebanon,Lebanon,LBN,LBN
+8372,Libyan Exclusive Economic Zone,200NM,364524,298161.57649083354,0.8179477249531815,Libya,Libya,LBY,LBY
+5685,Maltese Exclusive Economic Zone,200NM,52923,45062.33275896805,0.8514697345004638,Malta,Malta,MLT,MLT
+8354,Omani Exclusive Economic Zone,200NM,556490,502923.5256604042,0.9037422517213323,Oman,Oman,OMN,OMN
+8356,Saudi Arabian Exclusive Economic Zone,200NM,224219,126379.28450646882,0.563642173528866,Saudi Arabia,Saudi Arabia,SAU,SAU
+8346,Sri Lankan Exclusive Economic Zone,200NM,533559,501610.577522525,0.9401220437149874,Sri Lanka,Sri Lanka,LKA,LKA
+8355,Sudanese Exclusive Economic Zone,200NM,62826,49056.55553761565,0.7808320685323854,Sudan,Sudan,SDN,SDN
+8373,Syrian Exclusive Economic Zone,200NM,10269,9270.983208013733,0.9028126602408932,Syria,Syria,SYR,SYR
+8392,Togolese Exclusive Economic Zone,200NM,15447,14282.013834504716,0.9245817203667195,Togo,Togo,TGO,TGO
+5679,Greek Exclusive Economic Zone,200NM,482910,413607.7836418601,0.8564904094797376,Greece,Greece,GRC,GRC
+5697,Turkish Exclusive Economic Zone,200NM,262233,210086.20389111768,0.8011432729332986,Turkey,Turkey,TUR,TUR
+21790,Monégasque Exclusive Economic Zone,200NM,288,278.63158764141474,0.9674707904215789,Monaco,Monaco,MCO,MCO
+8366,Tunisian Exclusive Economic Zone,200NM,99701,32947.18973321567,0.33045997265038135,Tunisia,Tunisia,TUN,TUN
+5691,Montenegrin Exclusive economic Zone,200NM,6383,2809.1307588594455,0.44009568523569564,Montenegro,Montenegro,MNE,MNE
+5670,Albanian Exclusive Economic Zone,200NM,12165,5814.475830898507,0.47796759810098705,Albania,Albania,ALB,ALB
+5672,Bulgarian Exclusive Economic Zone,200NM,34745,22808.170495785173,0.6564446825668491,Bulgaria,Bulgaria,BGR,BGR
+48953,Palestinian Exclusive Economic Zone,200NM,1120,351.87632395880286,0.3141752892489311,Palestine,Palestine,PSE,PSE
+48953,Palestinian Exclusive Economic Zone,200NM,1120,351.87632395880286,0.3141752892489311,Israel,Israel,ISR,ISR
+8357,Kuwaiti Exclusive Economic Zone,200NM,11179,0,0,Kuwait,Kuwait,KWT,KWT
+8470,Iraqi Exclusive Economic Zone,200NM,1187,0,0,Iraq,Iraq,IRQ,IRQ
+8358,Bahraini Exclusive Economic Zone,200NM,7516,0,0,Bahrain,Bahrain,BHR,BHR
+8468,Qatari Exclusive Economic Zone,200NM,31363,0,0,Qatar,Qatar,QAT,QAT
+8353,Yemeni Exclusive Economic Zone,200NM,527384,474070.335198707,0.8989092107434185,Yemen,Yemen,YEM,YEM
+8375,Israeli Exclusive Economic Zone,200NM,24628,21678.920868310925,0.8802550295724754,Israel,Israel,ISR,ISR
+8491,Jordanian Exclusive Economic Zone,200NM,97,76.45407254045354,0.7881863148500364,Jordan,Jordan,JOR,JOR
+8352,Djiboutian Exclusive Economic Zone,200NM,7223,4912.1515325427035,0.6800708199560713,Djibouti,Djibouti,DJI,DJI
+8481,Bangladeshi Exclusive Economic Zone,200NM,112166,46893.28128224604,0.41807037143382164,Bangladesh,Bangladesh,BGD,BGD
+8474,Nigerian Exclusive Economic Zone,200NM,179048,134673.88371910414,0.7521663672261301,Nigeria,Nigeria,NGA,NGA
+8475,Cameroonian Exclusive Economic Zone,200NM,15143,2984.317262429798,0.1970756958614408,Cameroon,Cameroon,CMR,CMR
+21797,Joint regime area Nigeria / Sao Tome and Principe,Joint regime,34534,34535.25464466196,1.000036330707765,Sao Tome and Principe,Sao Tome and Principe,STP,STP
+21797,Joint regime area Nigeria / Sao Tome and Principe,Joint regime,34534,34535.25464466196,1.000036330707765,Nigeria,Nigeria,NGA,NGA
+48976,Joint regime area Italy / France,Joint regime,67,0,0,France,France,FRA,FRA
+48976,Joint regime area Italy / France,Joint regime,67,0,0,Italy,Italy,ITA,ITA
+22491,Bosnian and Herzegovinian Exclusive Economic Zone,200NM,13,0,0,Bosnia and Herzegovina,Bosnia and Herzegovina,BIH,BIH
+48957,Guam Exclusive Economic Zone,200NM,208234,207948.81606985498,0.9986304641406061,Guam,United States,GUM,USA
+8318,Marshall Islands Exclusive Economic Zone,200NM,2001566,1984462.5802693162,0.9914549808846255,Marshall Islands,Marshall Islands,MHL,MHL
+48980,Northern Mariana Exclusive Economic Zone,200NM,763626,762888.921060715,0.9990347644798828,Northern Mariana Islands,United States,MNP,USA
+8315,Palau Exclusive Economic Zone,200NM,614807,611623.3618148572,0.9948217274931113,Palau,Palau,PLW,PLW
+8322,Philippines Exclusive Economic Zone,200NM,1971033,1710956.9606360854,0.8680508954624734,Philippines,Philippines,PHL,PHL
+8485,Singaporean Exclusive Economic Zone,200NM,714,0,0,Singapore,Singapore,SGP,SGP
+8332,Thailand Exclusive Economic Zone,200NM,298683,67919.83349387372,0.22739772097465782,Thailand,Thailand,THA,THA
+8319,Wake Island Exclusive Economic Zone,200NM,406970,407041.18899771554,1.0001749244359917,Wake Island,United States,UMI,USA
+8484,Vietnamese Exclusive Economic Zone,200NM,750958,349249.01331532124,0.46507130001321145,Vietnam,Vietnam,VNM,VNM
+21796,Joint regime area Japan / Korea,Joint regime,82610,30743.731215694075,0.3721550806887069,South Korea,South Korea,KOR,KOR
+21796,Joint regime area Japan / Korea,Joint regime,82610,30743.731215694075,0.3721550806887069,Japan,Japan,JPN,JPN
+26521,Bruneian Exclusive Economic Zone,200NM,43144,34061.98998433496,0.7894954103545097,Brunei,Brunei,BRN,BRN
+8321,Taiwanese Exclusive Economic Zone,200NM,355433,277406.9225698636,0.7804759900455602,Taiwan,Taiwan,TWN,TWN
+8328,North Korean Exclusive Economic Zone,200NM,114379,77170.51466925468,0.6746912865932967,North Korea,North Korea,PRK,PRK
+8331,Cambodian Exclusive Economic Zone,200NM,48697,0,0,Cambodia,Cambodia,KHM,KHM
+8486,Chinese Exclusive Economic Zone,200NM,963556,120920.39971579063,0.1254938993849767,China,China,CHN,CHN
+5675,Estonian Exclusive Economic Zone,200NM,36451,3.8335234028869345,1.0516922451748743e-4,Estonia,Estonia,EST,EST
+5676,Finnish Exclusive Economic Zone,200NM,81553,324.70075376736594,0.003981469152175468,Finland,Finland,FIN,FIN
+5694,Swedish Exclusive Economic Zone,200NM,155347,2787.120609395047,0.017941258018468634,Sweden,Sweden,SWE,SWE
+5684,Lithuanian Exclusive Economic Zone,200NM,6832,0,0,Lithuania,Lithuania,LTU,LTU
+48977,Joint regime area Sweden / Norway,Joint regime,140,1.8674319428677764,0.01333879959191269,Norway,Norway,NOR,NOR
+48977,Joint regime area Sweden / Norway,Joint regime,140,1.8674319428677764,0.01333879959191269,Sweden,Sweden,SWE,SWE
+3293,Belgian Exclusive Economic Zone,200NM,3495,0,0,Belgium,Belgium,BEL,BEL
+5668,Dutch Exclusive Economic Zone,200NM,64328,0,0,Netherlands,Netherlands,NLD,NLD
+5669,German Exclusive Economic Zone,200NM,56763,0,0,Germany,Germany,DEU,DEU
+5674,Danish Exclusive Economic Zone,200NM,105021,832.2228107988725,0.007924346662085417,Denmark,Denmark,DNK,DNK
+5683,Latvian Exclusive Economic Zone,200NM,28353,921.9457311713929,0.032516690691334,Latvia,Latvia,LVA,LVA
+5673,Croatian Exclusive Economic Zone,200NM,55404,10866.439331662503,0.1961309532102827,Croatia,Croatia,HRV,HRV
+5682,Italian Exclusive Economic Zone,200NM,536654,422371.8795985348,0.7870469233408021,Italy,Italy,ITA,ITA
+5695,Overlapping claim Ukrainian Exclusive Economic Zone,Overlapping claim,136198,58875.5891945196,0.4322793961329799,Ukraine,Ukraine,UKR,UKR
+5689,Romanian Exclusive economic Zone,200NM,29606,6775.483538199067,0.22885508134158844,Romania,Romania,ROU,ROU
+8487,Japanese Exclusive Economic Zone,200NM,4066513,3748808.1791608,0.9218729115487396,Japan,Japan,JPN,JPN
+8359,Pakistani Exclusive Economic Zone,200NM,224374,174370.28965439356,0.7771412447716471,Pakistan,Pakistan,PAK,PAK
+26523,Turkmen Exclusive Economic Zone,200NM,61226,3290.1917565325784,0.05373847314102797,Turkmenistan,Turkmenistan,TKM,TKM
+26524,Azerbaijanis Exclusive Economic Zone,200NM,80614,50891.04317635338,0.6312928669505716,Azerbaijan,Azerbaijan,AZE,AZE
+26522,Kazakh Exclusive Economic Zone,200NM,114383,19252.14174938926,0.168312963896639,Kazakhstan,Kazakhstan,KAZ,KAZ
+8482,Myanmar Exclusive Economic Zone,200NM,497460,273652.8022215653,0.5501001130172583,Myanmar,Myanmar,MMR,MMR
+5687,Polish Exclusive Economic Zone,200NM,29982,0,0,Poland,Poland,POL,POL
+8480,Indian Exclusive Economic Zone,200NM,1659487,1269087.1946566214,0.7647466925963393,India,India,IND,IND
+26582,Overlapping claim: Sudan / Egypt,Overlapping claim,19734,14751.721776516824,0.7475282140730123,Sudan,Sudan,SDN,SDN
+26582,Overlapping claim: Sudan / Egypt,Overlapping claim,19734,14751.721776516824,0.7475282140730123,Egypt,Egypt,EGY,EGY
+8393,Beninese Exclusive Economic Zone,200NM,35493,32211.94081178652,0.9075575694302122,Benin,Benin,BEN,BEN
+5692,Slovenian Exclusive Economic Zone,200NM,214,0,0,Slovenia,Slovenia,SVN,SVN
+8483,Malaysian Exclusive Economic Zone,200NM,510804,122155.40230857805,0.23914339415622832,Malaysia,Malaysia,MYS,MYS
+49003,Overlapping claim South China Sea,Overlapping claim,338839,329325.0473057945,0.9719219077667992,China,China,CHN,CHN
+50167,Joint regime area Croatia / Slovenia,Joint regime,98,0,0,Croatia,Croatia,HRV,HRV
+50167,Joint regime area Croatia / Slovenia,Joint regime,98,0,0,Slovenia,Slovenia,SVN,SVN
+8327,South Korean Exclusive Economic Zone,200NM,347671,115668.36482282469,0.33269488919934276,South Korea,South Korea,KOR,KOR
+50170,Overlapping claim Qatar / Saudi Arabia / United Arab Emirates,Overlapping claim,126,0,0,Qatar,Qatar,QAT,QAT
+50170,Overlapping claim Qatar / Saudi Arabia / United Arab Emirates,Overlapping claim,126,0,0,Saudi Arabia,Saudi Arabia,SAU,SAU
+50170,Overlapping claim Qatar / Saudi Arabia / United Arab Emirates,Overlapping claim,126,0,0,United Arab Emirates,United Arab Emirates,ARE,ARE
+8455,New Zealand Exclusive Economic Zone,200NM,4104551,3830431.349503927,0.9332156792555207,New Zealand,New Zealand,NZL,NZL
+8442,Jarvis Island Exclusive Economic Zone,200NM,323186,323379.35687829234,1.000598283583733,Jarvis Island,United States,UMI,USA
+8489,Antarctic 200NM zone beyond the coastline,200NM,9618978,9370988.468559487,0.974218723502589,Antarctica,Antarctica,ATA,ATA
+8326,Tuvaluan Exclusive Economic Zone,200NM,753133,749090.8140702535,0.9946328391801362,Tuvalu,Tuvalu,TUV,TUV
+8454,Wallis and Futuna Exclusive Economic Zone,200NM,262750,260952.1621448083,0.9931576104464636,Wallis and Futuna,France,WLF,FRA
+8451,Howland and Baker Islands Exclusive Economic Zone,200NM,434894,434922.91539642954,1.0000664883774657,Howland and Baker islands,United States,UMI,USA
+8325,Fijian Exclusive Economic Zone,200NM,1289978,1245090.1935167566,0.9652026573451304,Fiji,Fiji,FJI,FJI
+8464,Brazilian Exclusive Economic Zone,200NM,3205183,2459983.5517834183,0.7675017469465607,Brazil,Brazil,BRA,BRA
+8441,Kiribati Exclusive Economic Zone (Line Islands),200NM,1641193,1639335.2470596707,0.9988680472434812,Line Group,Kiribati,KIR,KIR
+8488,Kiribati Exclusive Economic Zone (Gilbert Islands),200NM,1053245,1048679.3422395259,0.9956651512606525,Gilbert Islands,Kiribati,KIR,KIR
+8431,Ecuadorian Exclusive Economic Zone,200NM,236293,207925.19278819097,0.8799464765701521,Ecuador,Ecuador,ECU,ECU
+8397,Sao Tome and Principe Exclusive Economic Zone,200NM,130844,129167.29983637897,0.9871855020969931,Sao Tome and Principe,Sao Tome and Principe,STP,STP
+8316,Micronesian Exclusive Economic Zone,200NM,3010644,2989450.572094448,0.9929605001768551,Micronesia,Micronesia,FSM,FSM
+8398,Equatorial Guinean Exclusive Economic Zone,200NM,304133,292980.701379914,0.963330849923928,Equatorial Guinea,Equatorial Guinea,GNQ,GNQ
+8345,Maldives Exclusive Economic Zone,200NM,920739,892249.0936519853,0.9690575653382612,Maldives,Maldives,MDV,MDV
+8324,Papua New Guinean Exclusive Economic Zone,200NM,2399638,2226791.235233654,0.927969650102913,Papua New Guinea,Papua New Guinea,PNG,PNG
+8350,Somali Exclusive Economic Zone,200NM,781843,733070.4281650585,0.9376184581368107,Federal Republic of Somalia,Federal Republic of Somalia,SOM,SOM
+8317,Nauruan Exclusive Economic Zone,200NM,309261,309220.744224826,0.999869832357866,Nauru,Nauru,NRU,NRU
+8476,Gabonese Exclusive Economic Zone,200NM,201759,160509.51393365298,0.7955507012507644,Gabon,Gabon,GAB,GAB
+8492,Indonesian Exclusive Economic Zone,200NM,6020917,4114109.1034712847,0.6833027433315033,Indonesia,Indonesia,IDN,IDN
+48978,Joint regime area United States / Russia,Joint regime,8521,7708.011136605045,0.9045899702622985,United States,United States,USA,USA
+48978,Joint regime area United States / Russia,Joint regime,8521,7708.011136605045,0.9045899702622985,Russia,Russia,RUS,RUS
+5677,French Exclusive Economic Zone,200NM,345240,175549.43703931384,0.5084852190919761,France,France,FRA,FRA
+8378,Algerian Exclusive Economic Zone,200NM,131193,121308.14145177614,0.9246540703526571,Algeria,Algeria,DZA,DZA
+8400,Ghanaian Exclusive Economic Zone,200NM,227500,203895.76983402058,0.896245142127563,Ghana,Ghana,GHA,GHA
+8438,Greenlandic Exclusive Economic Zone,200NM,2268623,1929008.8221871832,0.8502994204798167,Greenland,Denmark,GRL,DNK
+5696,United Kingdom Exclusive Economic Zone,200NM,731309,203078.9618224582,0.2776924143179671,United Kingdom,United Kingdom,GBR,GBR
+33181,Svalbard Exclusive Economic Zone,200NM,797063,554795.2850887689,0.6960494780070947,Svalbard,Norway,SJM,NOR
+5686,Norwegian Exclusive Economic Zone,200NM,933027,743583.108685287,0.7969577607992984,Norway,Norway,NOR,NOR
+5690,Russian Exclusive economic Zone,200NM,7734809,3549788.905203086,0.45893685354132024,Russia,Russia,RUS,RUS
+8437,Jan Mayen Exclusive Economic Zone,200NM,292907,290309.9158874591,0.9911334173900218,Jan Mayen,Norway,SJM,NOR
+5693,Spanish Exclusive Economic Zone,200NM,561763,490715.30944740295,0.8735272872143643,Spain,Spain,ESP,ESP
+8383,Overlapping claim South Georgia and South Sandwich Islands: UK / Argentina,Overlapping claim,1237783,1216606.7266303767,0.9828917723303492,South Georgia and the South Sandwich Islands,United Kingdom,SGS,GBR
+8383,Overlapping claim South Georgia and South Sandwich Islands: UK / Argentina,Overlapping claim,1237783,1216606.7266303767,0.9828917723303492,South Georgia and the South Sandwich Islands,Argentina,SGS,ARG
+8402,Bermudian Exclusive Economic Zone,200NM,464389,463274.30144104094,0.9975996447828026,Bermuda,United Kingdom,BMU,GBR
+8456,United States Exclusive Economic Zone,200NM,2451023,1681902.624779992,0.6862043419339565,United States,United States,USA,USA
